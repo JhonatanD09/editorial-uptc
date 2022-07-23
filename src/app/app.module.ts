@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SocialNetworksComponent } from './components/social-networks/social-networks.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SocialNetworksComponent,
   ],
   imports: [
     BrowserModule

@@ -2,7 +2,7 @@
   display: flex;
   background-color: black;
   position: relative;
-  gap: 65rem
+  gap: 70%;
 }
 
 .buttons{
@@ -10,6 +10,7 @@
   display: flex;
   gap: 30px;
   margin-left: 20px;
+  margin-block: auto;
 }
 
 .input-search{

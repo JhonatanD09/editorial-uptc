@@ -7,12 +7,14 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { NewsAndEventsComponent } from './components/news-and-events/news-and-events.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SocialNetworksComponent,
     NewsAndEventsComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

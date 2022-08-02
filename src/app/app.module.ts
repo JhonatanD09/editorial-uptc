@@ -8,6 +8,9 @@ import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { NewsAndEventsComponent } from './components/news-and-events/news-and-events.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -15,11 +18,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     SocialNetworksComponent,
     NewsAndEventsComponent,
     NavbarComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
+    NgbModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

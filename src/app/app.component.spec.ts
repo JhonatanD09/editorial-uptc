@@ -23,25 +23,9 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('editorial-uptc');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain(
-      'editorial-uptc app is running!'
-    );
-  });
-
   it(`should have as title 'Editorial -Uptc'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Editorial-Uptc');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent);
+    expect(app.title).toEqual('editorial-uptc');
   });
 });

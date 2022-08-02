@@ -12,6 +12,7 @@ export const environment = {
     authDomain: 'networks-4dcef.firebaseapp.com',
     messagingSenderId: '628662010542',
     measurementId: 'G-CZSZEKWXKY',
+    ngTokenPath: [ 'NetworsService', 'Firestore', 'Firestore' ],
   },
   production: false,
   firebaseConfig : {
@@ -21,7 +22,8 @@ export const environment = {
     storageBucket: "networks-4dcef.appspot.com",
     messagingSenderId: "628662010542",
     appId: "1:628662010542:web:9e49f7cd44eab400aa233f",
-    measurementId: "G-CZSZEKWXKY"
+    measurementId: "G-CZSZEKWXKY",
+    ngTokenPath: [ 'NetworsService', 'Firestore', 'Firestore' ]
   }
 };
 

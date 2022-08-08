@@ -1,0 +1,29 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.conten-panel{
+  color: white;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: underline;
+}
+.copy-rigth{
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: black;
+display: block;
+text-align: center;
+align-items: center;
+align-content: center;
+color: white;
+}

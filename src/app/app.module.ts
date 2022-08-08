@@ -9,7 +9,8 @@ import { NewsAndEventsComponent } from './components/news-and-events/news-and-ev
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { GeneralInformationComponent } from './components/general-information/general-information.component'
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms'
     NewsAndEventsComponent,
     NavbarComponent,
     BannerComponent,
+    GeneralInformationComponent,
   ],
   imports: [
     BrowserModule,
